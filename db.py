@@ -2,10 +2,10 @@ import psycopg2
 from datetime import datetime, timedelta
 import pytz
 
-DB_HOST = "127.0.0.1"
-DB_NAME = "telegram_bot"
-DB_USER = "postgres"
-DB_PASS = "8181"
+DB_HOST = ""
+DB_NAME = ""
+DB_USER = ""
+DB_PASS = ""
 
 
 def process_cmd(cmd, values=None):
